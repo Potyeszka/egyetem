@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Basics</title>
+<style>
+    h1{
+    color: navy;
+    }
+    .user-card.activ{
+        background-color: lightsalmon;
+        box-shadow: 0 0 3px;
+    }
+    .user-card{
+        background-color: lightblue;
+        margin: 5px;
+        border: 1px solid;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    /* ha van space akkor az osztályon keresztül belül lesz hatása kívül nem */
+    .user-card h2{ 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+</style>
+
+</head>
+<body>
+    <h1>CSS Basics</h1>
+
+    <p style="font-style: italic;">CSS nyelv alapjai</p>
+
+
+    <!--div.user-card*4!-->
+    <!-- ctrl d megduplázza a kijelölést majd -> gomb és írhatjuk is -->
+    <!-- ctrl ü comment -->
+
+    <div class="user-card">
+        <h2>name</h2>
+        <p>Email: mail@gmail.me</p>
+    </div>
+    <div class="user-card activ">
+        <h2>name</h2>
+        <p>Email: mail@gmail.me</p>
+    </div>
+    <div class="user-card">
+        <h2>name</h2>
+        <p>Email: mail@gmail.me</p>
+    </div>
+    <div class="user-card">
+        <h2>name</h2>
+        <p>Email: mail@gmail.me</p>
+    </div>
+
+</body>
+</html>
